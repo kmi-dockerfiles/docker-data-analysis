@@ -10,3 +10,6 @@ RUN pip3 install git+https://github.com/quantopian/qgrid
 RUN pip2 install sympy
 RUN pip3 install sympy
 
+# Install XLRD (For excel parsing)
+RUN pip2 install xlrd
+RUN pip3 install xlrd
